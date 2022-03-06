@@ -6,7 +6,6 @@ import './Panel.css';
 const Panel = () => {
     return (
         <div className='panel'>
-            <Display />
             <Buttons />
         </div>
     );
