@@ -4,3 +4,11 @@
     border-radius: 16px;
     overflow: hidden;
 }
+
+@media only screen and (max-width: 400px) {
+    .panel {
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 15px;
+    }
+}
