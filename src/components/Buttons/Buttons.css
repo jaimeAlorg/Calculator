@@ -1,0 +1,62 @@
+button {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 16px;
+    cursor: pointer;
+    transition: 0.4;
+}
+
+button:hover {
+    opacity: 0.9;
+    color: #fff;
+}
+
+.buttonPanel {
+    display: flex;
+}
+
+.special {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.special button {
+    flex: 1;
+    background-color: #67afcb;
+}
+
+.specialButton {
+    max-width: 33.33%;
+}
+
+.digits {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    flex-grow: 1;
+}
+
+.digits button {
+    flex: 1 1 33.333%;
+    background-color: #67afcb;
+}
+
+.rightPanel {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.operators {
+    display: flex;
+    flex-direction: column;
+}
+
+.operators button {
+    flex: 1 1 0%;
+    background-color: #347b98;
+    font-weight: 700;
+}
