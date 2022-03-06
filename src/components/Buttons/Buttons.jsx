@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Display from '../Display/Display';
 import './Buttons.css';
 
@@ -88,6 +88,8 @@ const Buttons = () => {
                     isOperation: true,
                 });
 
+                break;
+            default:
                 break;
         }
     };
