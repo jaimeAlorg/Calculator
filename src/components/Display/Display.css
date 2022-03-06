@@ -1,0 +1,13 @@
+.display {
+    padding: 16px;
+    text-align: right;
+    background-color: #092834;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.display span {
+    font-size: 20px;
+    color: #e4f1f6;
+}
